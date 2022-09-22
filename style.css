@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+li {
+    list-style-type: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5em;
+    background-color: #333;
+    font-size: 20px;
+    color: aliceblue;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+header li{
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section1 {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5em;
+    background-color: #333;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.section1, article {
+    margin-right: auto;
+    font-size: 36px;
+    color: aqua;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section1, p{
+    font-size: 20px;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.img1 {
+    width: 340px;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+}
+
+.section2, ul {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding: 3em;
+}
+
+.section2, li{
+    font-size: 24px;
+    color: black;
+}
+
+.section3{
+    padding: 50px;
+    background-color: #333;
+}
+
+.section3, p {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text3 {
+    display: flex;
+    justify-content: center;
+}
+
+.right{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 500px;
+    font-weight: bolder;
+    font-size: 48px;
+    margin-top: 25px;
+    font-family: 'Montserrat', sans-serif;
+} 
+
+
+
+.section4{
+    display: flex;
+    align-items: center;
+}
+
+.section4, p{
+    display: flex;
+    color: #333;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button9{
+    margin-left: 350px;
+}
+
+.test {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+footer, p{
+    color: aliceblue;
+}
